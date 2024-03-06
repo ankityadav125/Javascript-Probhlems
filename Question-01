@@ -1,0 +1,4 @@
+//Make a variable user and initialize a value "Ram" and print it on console
+
+        let name="Ram"
+        console.log(name);
