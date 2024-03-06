@@ -1,0 +1,23 @@
+//Make two variables and print their sum, mul, div, sub.
+
+// let num1=25;
+// let num2=5;
+// let sum=num1+num2;
+// console.log(`Sum of ${num1} and ${num2} is : `,sum);
+
+// let num1=25;
+// let num2=5;
+// let Sub=num1-num2;
+// console.log(`Sub of ${num1} and ${num2} is : `,Sub);
+
+
+// let num1=25;
+// let num2=5;
+// let Multi=num1*num2;
+// console.log(`Multi of ${num1} and ${num2} is : `,Multi);
+
+
+let num1=25;
+let num2=5;
+let Div=num1/num2;
+console.log(`Sum of ${num1} and ${num2} is : `,Div);
