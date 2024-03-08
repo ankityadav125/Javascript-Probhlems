@@ -1,0 +1,4 @@
+ // Ask a user his/her name and say hello (eg. "Hello Ankit")
+
+let name=prompt("Enter your name:")
+console.log(`Hello `,name);
