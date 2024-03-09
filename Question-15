@@ -1,0 +1,6 @@
+// Accept an integer and Print hello world n times
+
+let n=prompt("Enter a number:")
+for(let i=1;i<=n;i++){
+    console.log("Hello World");
+}
