@@ -1,0 +1,9 @@
+// Accept a year and check if it a leap year or not.
+
+
+let year=prompt("Enter year:")
+if((year%400==0) || (year%100!=0) || (year%4==0)){
+    console.log(year+ " :  is Leap Year");
+} else{
+    console.log(year+ " : is Not Leap Year");
+}
