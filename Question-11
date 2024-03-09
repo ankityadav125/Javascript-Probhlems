@@ -1,0 +1,12 @@
+// Accept name and age from the user. Check if the user is a valid voter or not.
+//       Vaid - Hello Shery, You are a valid voter.
+//       Invalid - Sorry Shery, you can't cast the vote.
+
+
+let age=prompt("Enter Your age:")
+let name=prompt("Enter Your name:")
+if(age>18){
+    console.log(`Hello ${name}, You are a valid voter`);
+} else{
+    console.log(`Sorry ${name}, You can't cast the vote`);
+}
