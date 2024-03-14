@@ -1,0 +1,10 @@
+//Print Good Morning sir for input m or M & Good morning Mam for input F or f. else print Wrong Input
+
+let gender=prompt("Enter your gender:")
+if(gender=='M' || gender=='m'){
+    console.log("Good Morning Sir")
+} else if(gender=='F' || gender=='f'){
+    console.log("Good Morning Mam");
+}else{
+    console.log("Wrong Input");
+}
