@@ -1,0 +1,11 @@
+
+// Accept the gender from the user (M or F) and print the respective greeting message. Ex - Good Morning Sir (on the basis of gender)
+
+    let gender=prompt("Enter gender:")
+    if(gender=='M'){
+        console.log("Good morning sir");
+    } else if(gender=='F'){
+        console.log("Good morning mam");
+    } else{
+        console.log("Wrong input");
+    }
