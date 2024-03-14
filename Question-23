@@ -1,0 +1,14 @@
+// ask a user his bijli ki units and if it is more than 100 unit calculate bill on the basis of 10 rs/ unit, if more than 50 units 8 rs/unit and if less 7 rs/unit  
+
+
+let units = parseFloat(prompt("Enter  electricity units:"));
+let amount;
+if (units > 100) {
+amount = units * 10;
+} else if (units > 50) {
+    amount = units * 8;
+} else {
+  amount = units * 7;
+}
+console.log("Your electricity bill is: Rs. " + amount.toFixed(2));
+
