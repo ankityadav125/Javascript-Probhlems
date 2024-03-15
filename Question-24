@@ -1,0 +1,18 @@
+// ask a user his salary and if it is more than 1 lakh 30% tax if more than 70k 20% tax and if more than 50k 10% tax and less than that no tax and print tax amount and amount left after paying tax.
+
+
+let salary = parseFloat(prompt("Enter your salary:"));
+let tax, amountLeft;
+
+if (salary > 100000) {
+    tax = salary * 0.3;
+} else if (salary > 70000) {
+    tax = salary * 0.2;
+} else if (salary > 50000) {
+    tax = salary * 0.1;
+} else {
+    tax = 0;
+}
+amountLeft = salary - tax;
+console.log("Tax amount: Rs. " + tax.toFixed(2));
+console.log("Amount  after paying tax: Rs. " + amountLeft.toFixed(2));
