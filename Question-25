@@ -1,0 +1,18 @@
+// Ask a user 3 sides of triangle and check
+//	equilateral triangle
+// 	isoscales trianle
+// 	scalene triangle
+
+
+
+let side1 = parseFloat(prompt("Enter the first side:"));
+let side2 = parseFloat(prompt("Enter the second side:"));
+let side3 = parseFloat(prompt("Enter the third side:"));
+
+if (side1 === side2 && side2 === side3) {
+    console.log("The triangle is an equilateral triangle.");
+} else if (side1 === side2 || side1 === side3 || side2 === side3) {
+    console.log("The triangle is an isosceles triangle.");
+} else {
+    console.log("The triangle is a scalene triangle.");
+}
