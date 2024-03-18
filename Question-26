@@ -1,0 +1,18 @@
+
+// Write a JavaScript program that iterates integers from 1 to 100. But for multiples of three print "Sheryians" instead of the number and for multiples of five print "coding". 
+//For numbers multiples of both three and five print "Sheryians coding school".
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("Sheryians coding school");
+    }
+    else if (i % 3 === 0) {
+        console.log("Sheryians");
+    }
+    else if (i % 5 === 0) {
+        console.log("coding");
+    }
+    else {
+        console.log(i);
+    }
+}
