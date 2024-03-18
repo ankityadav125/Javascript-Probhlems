@@ -1,0 +1,18 @@
+        // Print the sum of all even & odd numbers in a range seperately.
+
+function sumEvenOddRange() {
+    let sumEven = 0;
+    let sumOdd = 0;
+    for (let i = 1; i <= 20; i++) {
+        if (i % 2 === 0) {
+            // sumEven += i;
+            sumEven=sumEven+i;
+        } else {
+            // sumOdd += i;
+            sumOdd=sumOdd+i;
+        }
+    }
+    console.log("Sum of even numbers:", sumEven);
+    console.log("Sum of odd numbers:", sumOdd);
+}
+sumEvenOddRange(1, 20);
