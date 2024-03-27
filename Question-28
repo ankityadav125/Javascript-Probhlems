@@ -1,0 +1,11 @@
+// Print all the numbers which are either divisible by 3 or 5 in a range 
+
+
+function DivisibleBy3_Or_5Range() {
+    for (let i = 1; i <= 20; i++) {
+        if (i % 3 === 0 || i % 5 === 0) {
+            console.log(i);
+        }
+    }
+}
+DivisibleBy3_Or_5Range(1, 20);
