@@ -1,0 +1,26 @@
+// Accept a number and check if it a perfect number or not.
+//       A number whose sum of factors(excluding number itself)  = Number 
+//       Ex -  6 = 1, 2, 3 = 6
+
+function PerfectNumber(number) {
+    if (number <= 0) {
+        console.log("Enter positive number.");
+        return false;
+    }
+
+    let sum = 0;
+
+    for (let i = 1; i <= number / 2; i++) {
+        if (number % i === 0) {
+            sum += i;
+        }
+    }
+    return sum === number;
+}
+
+const number = 6;
+if (PerfectNumber(number)) {
+    console.log(number, "is a perfect number.");
+} else {
+    console.log(number, "is not a perfect number.");
+}
