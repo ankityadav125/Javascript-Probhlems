@@ -1,0 +1,9 @@
+// Seprate each digit of a number and print it on the new line.
+
+function separateDigits(number) {
+    let numStr = number.toString();
+    for (let i = 0; i < numStr.length; i++) {
+        console.log(numStr[i]);
+    }
+}
+separateDigits(12345);
