@@ -1,0 +1,5 @@
+        // Create a program that converts Celsius to Fahrenheit or vice versa.
+
+          let Celsius=prompt("Enter temperature in celcius:")
+          let Fahrenheit=((Celsius*9)/5)+32;
+          console.log("Temperature in Fahrenheit is: "+Fahrenheit);
