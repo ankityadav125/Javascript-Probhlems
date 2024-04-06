@@ -1,0 +1,6 @@
+        // Q-. Make a program that concatenates two strings together.
+
+        let str1="Ankit"
+        let str2="Yadav"
+        let concate=str1+str2
+        console.log(concate);
