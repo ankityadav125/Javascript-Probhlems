@@ -1,0 +1,8 @@
+        //  Create a program that stores different types of data (string, integer, float) in variables and displays them.
+
+      let str_var = "Hello, world!";
+      let int_var = 42;
+      let float_var= 3.14;
+      console.log("String Variable:", str_var);
+      console.log("Integer Variable:", int_var);
+      console.log("Float Variable:", float_var);
