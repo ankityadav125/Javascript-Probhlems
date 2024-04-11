@@ -1,0 +1,13 @@
+      //  Write a program that performs basic arithmetic operations (+, -, *, /) on different data types (integer, float).
+
+      let int_var = 25;
+      let float_var = 5.5;
+      let add= int_var + float_var;
+      let sub= int_var - float_var;
+      let multi = int_var * float_var;
+      let div= int_var / float_var;
+
+      console.log("Addition :", add);
+      console.log("Subtraction :", sub);
+      console.log("Multiplication :", multi);
+      console.log("Division :", div);
